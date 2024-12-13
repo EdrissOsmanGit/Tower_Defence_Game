@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "-I",
+                "C:\\Users\\edris\\OneDrive\\Desktop\\TD\\SFML-2.6.2-64bit\\include",
+                "C:\\Users\\edris\\OneDrive\\Desktop\\TD\\main.cpp",
+                "-o",
+                "C:\\Users\\edris\\OneDrive\\Desktop\\TD\\main.exe",
+                "-L",
+                "C:\\Users\\edris\\OneDrive\\Desktop\\TD\\SFML-2.6.2-64bit\\lib",
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Task to build SFML project"
+        }
+    ]
+  }

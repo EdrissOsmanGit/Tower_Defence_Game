@@ -1,0 +1,29 @@
+{
+    "configurations": [
+    {
+        "name": "(gdb) Launch",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "C:\\Users\\edris\\OneDrive\\Desktop\\TD\\main.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "C:/Users/edris/OneDrive/Desktop/TD",
+        "environment": [],
+        "externalConsole": true,
+        "MIMode": "gdb",
+        "miDebuggerPath": "C:\\msys64\\usr\\bin\\gdb.exe",
+        "setupCommands": [
+            {
+                "description": "Enable pretty-printing for gdb",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+            },
+            {
+                "description": "Set Disassembly Flavor to Intel",
+                "text": "-gdb-set disassembly-flavor intel",
+                "ignoreFailures": true
+            }
+        ]
+    }
+    ]
+}
